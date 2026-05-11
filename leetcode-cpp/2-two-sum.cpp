@@ -13,12 +13,13 @@ public:
     }
 };
 
-
+#ifdef ACTIVE_MAIN
 int main() {
     Solution* sl = new Solution();
     auto vec = std::vector<int>{ 2, 7, 11, 15 };
     sl->twoSum(vec, 9);
 }
+#endif
 
 //Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 //
