@@ -21,11 +21,13 @@ public:
     }
 };
 
+#ifdef ACTIVE_MAIN
 int main() {
     Solution* sl = new Solution();
     auto vec = std::vector<int>{ 1, 2, 5 };
     sl->coinChange(vec, 11);
 }
+#endif
 
 //You are given an integer array coins representing coins of different denominations and an integer amount representing a total amount of money.
 //
