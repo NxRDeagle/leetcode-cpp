@@ -129,6 +129,7 @@
     <ClCompile Include="2-two-sum.cpp" />
     <ClCompile Include="3-coin-change.cpp" />
     <ClCompile Include="4-minesweeper.cpp" />
+    <ClCompile Include="5-number-of-islands.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

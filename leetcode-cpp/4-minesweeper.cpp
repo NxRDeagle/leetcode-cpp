@@ -72,6 +72,7 @@ public:
     }
 };
 
+#ifdef ACTIVE_MAIN
 int main()
 {
     std::vector<std::vector<char>> board = {
@@ -87,6 +88,7 @@ int main()
 
 	return 0;
 }
+#endif
 
 //Let's play the minesweeper game!
 //
