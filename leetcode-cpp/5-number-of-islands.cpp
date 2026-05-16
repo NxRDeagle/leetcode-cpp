@@ -42,6 +42,7 @@ private:
     }
 };
 
+#ifdef ACTIVE_MAIN
 int main()
 {
     Solution sl;
@@ -56,6 +57,7 @@ int main()
 
     return 0;
 }
+#endif
 
 //Given an m x n 2D binary grid grid which represents a map of '1's(land) and '0's(water), return the number of islands.
 //
