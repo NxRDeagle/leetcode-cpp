@@ -39,5 +39,8 @@
     <ClCompile Include="6-remove-comments.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="7-merge-k-sorted-lists.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

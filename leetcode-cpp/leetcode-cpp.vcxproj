@@ -131,6 +131,7 @@
     <ClCompile Include="4-minesweeper.cpp" />
     <ClCompile Include="5-number-of-islands.cpp" />
     <ClCompile Include="6-remove-comments.cpp" />
+    <ClCompile Include="7-merge-k-sorted-lists.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
