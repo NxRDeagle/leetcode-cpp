@@ -18,8 +18,8 @@ public:
         if (level == answer.size())
             answer.push_back(node->val);
    
-        rec(node->right, level + 1, answer);
-        rec(node->left, level + 1, answer);
+        rec(node->right, ++level, answer);
+        rec(node->left, ++level, answer);
     }
 
     std::vector<int> rightSideView(TreeNode* root) {
