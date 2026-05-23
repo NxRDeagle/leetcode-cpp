@@ -44,6 +44,7 @@ public:
     }
 };
 
+#ifdef ACTIVE_MAIN
 int main()
 {
     Solution sl;
@@ -67,6 +68,7 @@ int main()
 
     return 0;
 }
+#endif
 
 //You are given an array of k linked - lists, each linked - list is sorted in ascending order.
 //
