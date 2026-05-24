@@ -29,10 +29,10 @@ public:
     }
 };
 
+#ifdef ACTIVE_MAIN
 int main()
 {
     Solution sl;
-
 
     auto leftLeaf = new TreeNode(5);
     auto leftBranch = new TreeNode(2, nullptr, leftLeaf);
@@ -46,6 +46,7 @@ int main()
 
     return 0;
 }
+#endif
 
 //Given the root of a binary tree, imagine yourself standing on the right side of it, return the values of the nodes you can see ordered from top to bottom.
 //
