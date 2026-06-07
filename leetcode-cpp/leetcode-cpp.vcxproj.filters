@@ -60,5 +60,8 @@
     <ClCompile Include="11-n-queens.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="12-trapping-rain-water.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

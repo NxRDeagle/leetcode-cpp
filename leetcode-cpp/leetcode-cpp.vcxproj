@@ -127,6 +127,7 @@
     <ClCompile Include="10-clone-graph.cpp" />
     <ClCompile Include="10-serialize-and-deserialize-binary-tree.cpp" />
     <ClCompile Include="11-n-queens.cpp" />
+    <ClCompile Include="12-trapping-rain-water.cpp" />
     <ClCompile Include="2-four-sum.cpp" />
     <ClCompile Include="2-three-sum.cpp" />
     <ClCompile Include="2-two-sum.cpp" />

@@ -39,12 +39,14 @@ public:
     }
 };
 
+#ifdef ACTIVE_MAIN
 int main() {
     Solution sl;
     sl.solveNQueens(5);
 
     return 0;
 }
+#endif
 
 //The n - queens puzzle is the problem of placing n queens on an n x n chessboard such that no two queens attack each other.
 //
