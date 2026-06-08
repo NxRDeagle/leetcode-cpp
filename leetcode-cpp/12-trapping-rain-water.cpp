@@ -17,7 +17,7 @@ public:
     }
 };
 
-
+#ifdef ACTIVE_MAIN
 int main() {
     Solution sl;
     std::vector<int> height = { 0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1 };
@@ -25,6 +25,7 @@ int main() {
 
     return 0;
 }
+#endif
 
 //Given n non - negative integers representing an elevation map where the width of each bar is 1, compute how much water it can trap after raining.
 //
