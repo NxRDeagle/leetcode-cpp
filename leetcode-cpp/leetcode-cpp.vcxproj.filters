@@ -66,5 +66,8 @@
     <ClCompile Include="13-count-good-nodes-in-binary-tree.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="14-find-n-unique-integers-sum-up-to-zero.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

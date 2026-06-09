@@ -129,6 +129,7 @@
     <ClCompile Include="11-n-queens.cpp" />
     <ClCompile Include="12-trapping-rain-water.cpp" />
     <ClCompile Include="13-count-good-nodes-in-binary-tree.cpp" />
+    <ClCompile Include="14-find-n-unique-integers-sum-up-to-zero.cpp" />
     <ClCompile Include="2-four-sum.cpp" />
     <ClCompile Include="2-three-sum.cpp" />
     <ClCompile Include="2-two-sum.cpp" />
