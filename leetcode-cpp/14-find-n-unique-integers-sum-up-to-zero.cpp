@@ -17,12 +17,14 @@ public:
 	}
 };
 
+#ifdef ACTIVE_MAIN
 int main() {
 	Solution sl;
 	sl.sumZero(5);
 
 	return 0;
 }
+#endif;
 
 //Given an integer n, return any array containing n unique integers such that they add up to 0.
 //
