@@ -132,6 +132,8 @@
     <ClCompile Include="14-find-n-unique-integers-sum-up-to-zero.cpp" />
     <ClCompile Include="15-maximum-length-of-a-concatenated-string-with-unique-characters.cpp" />
     <ClCompile Include="16-longest-zigzag-path-in-a-binary-tree.cpp" />
+    <ClCompile Include="17-shortest-path-in-binary-matrix.cpp" />
+    <ClCompile Include="18-longest-increasing-path-in-a-matrix.cpp" />
     <ClCompile Include="2-four-sum.cpp" />
     <ClCompile Include="2-three-sum.cpp" />
     <ClCompile Include="2-two-sum.cpp" />
